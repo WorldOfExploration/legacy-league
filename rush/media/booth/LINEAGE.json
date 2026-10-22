@@ -1,0 +1,193 @@
+{
+  "note": "Originals are kept untouched outside the repo (handoff bundle). Each derived file lists its source sha256, the exact ffmpeg arguments and the derived sha256. No speech audio is derived or altered here.",
+  "tool": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "items": [
+    {
+      "role": "Harry neutral (Alert studio idle)",
+      "source": "H01.png (Drive 03-Harry-45-Photos / 04-Dick-45-Photos, 1122x1402 PNG)",
+      "source_bytes": 1921768,
+      "source_sha256": "5aec414466295c0beb3d025c4754949b32f4be2316d86dc65674979c81570ae8",
+      "derived": "media/booth/stills/H01.webp",
+      "derived_bytes": 55442,
+      "derived_sha256": "03dd0502e22c64718e999bc57ef2cc46bdca88d789621942319c2f39cf953f40",
+      "ffmpeg_args": [
+        "-i",
+        "H01.png",
+        "-vf",
+        "scale=-2:1100:flags=lanczos",
+        "-c:v",
+        "libwebp",
+        "-quality",
+        "78",
+        "-compression_level",
+        "6",
+        "H01.webp"
+      ]
+    },
+    {
+      "role": "Harry welcome (Two-arm championship salute)",
+      "source": "H17.png (Drive 03-Harry-45-Photos / 04-Dick-45-Photos, 1122x1402 PNG)",
+      "source_bytes": 1957373,
+      "source_sha256": "3ed1be2b8500491c5394757cac21839d5568584a427c44e61a1f3553c0fe7894",
+      "derived": "media/booth/stills/H17.webp",
+      "derived_bytes": 58260,
+      "derived_sha256": "13568896f83138d0df3514824869349a182b6b524e48c631100b7889e08411f2",
+      "ffmpeg_args": [
+        "-i",
+        "H17.png",
+        "-vf",
+        "scale=-2:1100:flags=lanczos",
+        "-c:v",
+        "libwebp",
+        "-quality",
+        "78",
+        "-compression_level",
+        "6",
+        "H17.webp"
+      ]
+    },
+    {
+      "role": "Harry big play (Microphone-thrust eruption)",
+      "source": "H06.png (Drive 03-Harry-45-Photos / 04-Dick-45-Photos, 1122x1402 PNG)",
+      "source_bytes": 1951632,
+      "source_sha256": "70b8f21921a030faa072e3aff6e093cfcf37e26104e21e04045fe230ccb6d9ce",
+      "derived": "media/booth/stills/H06.webp",
+      "derived_bytes": 59374,
+      "derived_sha256": "acda1cb19e441a3c3296b0db4ab37a502ed855056c5bbbc0016ec2a0b594c090",
+      "ffmpeg_args": [
+        "-i",
+        "H06.png",
+        "-vf",
+        "scale=-2:1100:flags=lanczos",
+        "-c:v",
+        "libwebp",
+        "-quality",
+        "78",
+        "-compression_level",
+        "6",
+        "H06.webp"
+      ]
+    },
+    {
+      "role": "Harry win (Desk victory drum)",
+      "source": "H27.png (Drive 03-Harry-45-Photos / 04-Dick-45-Photos, 1122x1402 PNG)",
+      "source_bytes": 1965555,
+      "source_sha256": "6ba5263e78a7a98f9a86468216b1e3a311e0248708b7f9b401dcc5606dcba32e",
+      "derived": "media/booth/stills/H27.webp",
+      "derived_bytes": 58840,
+      "derived_sha256": "3fcd6f534bff4cf6fad2973a4d2bb870cab3ed4f6e75ca1264ca64f22e4b2dc2",
+      "ffmpeg_args": [
+        "-i",
+        "H27.png",
+        "-vf",
+        "scale=-2:1100:flags=lanczos",
+        "-c:v",
+        "libwebp",
+        "-quality",
+        "78",
+        "-compression_level",
+        "6",
+        "H27.webp"
+      ]
+    },
+    {
+      "role": "Dick neutral (Quiet tracking listen)",
+      "source": "D01.png (Drive 03-Harry-45-Photos / 04-Dick-45-Photos, 1122x1402 PNG)",
+      "source_bytes": 1952890,
+      "source_sha256": "5a27248f99cfdf17543f71173c2ca8f7a30d01e6eba1a33c10d1c40b4e1bf2a6",
+      "derived": "media/booth/stills/D01.webp",
+      "derived_bytes": 48670,
+      "derived_sha256": "ee0ebebebe25bedc5f008f280f662a1218b589103a3de9c128628e1192f28f40",
+      "ffmpeg_args": [
+        "-i",
+        "D01.png",
+        "-vf",
+        "scale=-2:1100:flags=lanczos",
+        "-c:v",
+        "libwebp",
+        "-quality",
+        "78",
+        "-compression_level",
+        "6",
+        "D01.webp"
+      ]
+    },
+    {
+      "role": "Dick welcome (Dry half-smirk delivery)",
+      "source": "D08.png (Drive 03-Harry-45-Photos / 04-Dick-45-Photos, 1122x1402 PNG)",
+      "source_bytes": 1930611,
+      "source_sha256": "87a504814706d73565e3f5152678bcc0babeecc980c221ff12a2caddda14cf91",
+      "derived": "media/booth/stills/D08.webp",
+      "derived_bytes": 47418,
+      "derived_sha256": "efbf21f0544fa23a7eeed34dcc3f560f2c95b5f8956f260fb6738c9a5f803226",
+      "ffmpeg_args": [
+        "-i",
+        "D08.png",
+        "-vf",
+        "scale=-2:1100:flags=lanczos",
+        "-c:v",
+        "libwebp",
+        "-quality",
+        "78",
+        "-compression_level",
+        "6",
+        "D08.webp"
+      ]
+    },
+    {
+      "role": "Dick big play (Reluctant impressed nod)",
+      "source": "D14.png (Drive 03-Harry-45-Photos / 04-Dick-45-Photos, 1122x1402 PNG)",
+      "source_bytes": 1948843,
+      "source_sha256": "1e28a1e0e10f4674a4220e7bdd9610f1fdb581ed9f5eb7b5026263b9fed78165",
+      "derived": "media/booth/stills/D14.webp",
+      "derived_bytes": 50098,
+      "derived_sha256": "1f350fd7fc9043c41e84bf20a569c480a3d4252981157ad91264f57947f89e41",
+      "ffmpeg_args": [
+        "-i",
+        "D14.png",
+        "-vf",
+        "scale=-2:1100:flags=lanczos",
+        "-c:v",
+        "libwebp",
+        "-quality",
+        "78",
+        "-compression_level",
+        "6",
+        "D14.webp"
+      ]
+    },
+    {
+      "role": "Dick win (Stand for the champions)",
+      "source": "D20.png (Drive 03-Harry-45-Photos / 04-Dick-45-Photos, 1122x1402 PNG)",
+      "source_bytes": 1996303,
+      "source_sha256": "52846c1a5bb73a7714a5592a809e6f180bf4dcb8616d0d42d3f6aa3d05742abb",
+      "derived": "media/booth/stills/D20.webp",
+      "derived_bytes": 51810,
+      "derived_sha256": "46389fd5db3225d926f0e641337998c847fc392f9e11ffbeaa7c80d4a7ad689d",
+      "ffmpeg_args": [
+        "-i",
+        "D20.png",
+        "-vf",
+        "scale=-2:1100:flags=lanczos",
+        "-c:v",
+        "libwebp",
+        "-quality",
+        "78",
+        "-compression_level",
+        "6",
+        "D20.webp"
+      ]
+    },
+    {
+      "role": "Intro video with its own narration track (byte-identical copy, not re-encoded)",
+      "source": "Dynasty-Rush-Intro-24s.mp4 (Drive 02-Intro-Preview)",
+      "source_bytes": 2748868,
+      "source_sha256": "ccd0d0666a8c4dd5728e5f7b03f8b0aff5a038fd77d85c2bebb07bbc4d097f09",
+      "derived": "media/booth/intro/Dynasty-Rush-Intro-24s.mp4",
+      "derived_bytes": 2748868,
+      "derived_sha256": "ccd0d0666a8c4dd5728e5f7b03f8b0aff5a038fd77d85c2bebb07bbc4d097f09",
+      "ffmpeg_args": null,
+      "transform": "copy"
+    }
+  ]
+}
